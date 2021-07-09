@@ -14,7 +14,7 @@
 /* For small phones to small tablets from 481 to 767px */
 @media only screen and (max-width: 767px) {
 
-    .top { width: 66%; }
+    .top { width: 58%; }
 
     .left-column {
 
@@ -38,5 +38,12 @@
 
 /* For small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
-  
+    .left-column,
+    .right-column {
+        margin-left: 10%;
+        width: 80%;        
+    }   
+    
+    .left-column { margin-bottom: 40px; }
+    .right-column { float: left; }
 }
