@@ -55,7 +55,7 @@ header p {
 
 .countdown {
     display: inline-block;
-
+    height: 45px;
     color: #fff;
     margin-bottom: 25px;
 }
