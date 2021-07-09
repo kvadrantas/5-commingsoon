@@ -1,0 +1,272 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------------- */
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    max-height: 367px;
+    max-width: 1200px;
+    background-image: url(./img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  /*  margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.top {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.top-logo {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+header p {
+    font-size: 12px;
+    color: rgb(143, 142, 142);
+    margin-bottom: 25px;
+}
+
+.countdown {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.countdown th {
+    width: 60px;
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 30px;
+    font-weight:900;
+    text-align: center;
+}
+
+.countdown td {
+    font-size: 9px;
+    text-transform: uppercase;
+    line-height: 9px;
+}
+
+.form1 input {
+    display: inline-block;
+    width: 78%;
+    border: 0;
+    border-bottom: 1px solid rgb(226, 224, 224);
+    background-color: transparent;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 8px 17px;
+    background-color: #ea1e63;
+    color: #fff;
+    border: 1px;
+    font-size: 9px;
+    cursor: pointer;    
+}
+
+.form1 button { box-shadow: 1px 1px 1px #000; }
+
+.bullet {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form1 ::placeholder {
+    color: rgb(226, 224, 224);
+    font-size: 8px;
+    
+}
+
+/* ----------------------------------------------------- */
+/* MIDDLE ROW - CONTENT */
+/* ----------------------------------------------------- */
+
+.content {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+
+main {
+    display: inline-block;
+    margin-top: 40px;
+    max-width: 1200px;   
+
+}
+
+.left-column {
+
+    float: left;
+    width: 25%;
+    margin-left: 22%;    
+}
+
+.right-column {
+    margin-left: 6px;
+    float: right;
+    width: 25%;
+    margin-right: 22%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 17px;
+}
+
+main p {
+    font-size: 10px;
+    color: rgb(163, 162, 162);
+    margin-bottom: 17px;
+}
+
+span { color: #ea1e63; }
+
+
+
+.left-column label {
+    display: block;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgb(163, 162, 162);
+}
+
+progress {
+    width: 100%;
+    height: 0.5em;
+    margin-bottom: 12px;
+}
+
+.right-column label { display: none; }
+
+.right-column input {
+    float: left;
+    width: 45%;
+    border: 0;
+    border-bottom: 1px solid rgb(201, 198, 198);
+}
+
+.form2 div:nth-child(2) input { float: right; }
+
+.form2 input {
+    font-size: 10px;
+    line-height: 16px;
+    color: rgb(163, 162, 162);
+}
+
+textarea {
+    border: 0;
+    border-bottom: 1px solid rgb(201, 198, 198);
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgb(163, 162, 162);
+}
+
+.right-column ::placeholder {
+    color: rgb(168, 166, 166);
+    font-size: 10px;
+}
+
+.button2 { float: right; }
+
+
+/* ----------------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------------- */
+
+.circle {
+    display: inline-block;
+    width: 56%;
+    text-align: right;
+}
+
+.circle-img { margin-top: -15px; }
+
+footer {
+    height: 22%;
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+    max-width: 1200px;
+    background-color: #01a9f5;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.social-icons,
+.social-icons a {
+    color: #fff;
+    font-size: 11px;   
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+.line { 
+    display: inline-block;
+    width: 56%;
+    margin: 10px 22% 0 22%;
+    border-bottom: solid 1px #1fb2f5;
+    text-align: center;
+}
+
+i { margin-right: 15px; }
+
+.bottom-logo {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 10px;
+    color: #8bd9f8;
+}
+
+footer span {
+    color: #fff;
+}
